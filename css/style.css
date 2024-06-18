@@ -45,6 +45,11 @@ a{
     width: 1000px;
 }
 
+.container{
+    margin: 0 auto;
+    width: 800px;
+}
+
 
 
 /*Header*/
@@ -93,12 +98,26 @@ header{
 
 .content-main-top{
     padding: 40px 0;
+    min-height: 300px;
+    position: relative;
+    top: 30px;
 }
 
 .content-main-top > p{
     margin-bottom: 20px;
     max-width: 400px;
     font-size: 16px;
+}
+
+.content-main-top > i{
+    font-size: 50px;
+}
+
+.content-main-top > img{
+    position: absolute;
+    right: -90px;
+    top:250px;
+    width: 700px;
 }
 
 #title-main-top{
@@ -120,6 +139,21 @@ header{
 .subtitle-main-top{
     font-weight: 400;
     font-size: 16px;
+    margin-bottom:20px;
+}
+
+.choose-business-plan{
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.title-business-plan > h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.type-business{
+    margin-right: 15px;
 }
 
 
