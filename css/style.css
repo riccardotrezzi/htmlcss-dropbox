@@ -29,7 +29,7 @@ main{
   }*/
 
 /*General*/
-a{
+li > a{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight:300;
@@ -47,9 +47,8 @@ a{
 
 .container{
     margin: 0 auto;
-    width: 800px;
+    width: 900px;
 }
-
 
 
 /*Header*/
@@ -154,6 +153,95 @@ header{
 
 .type-business{
     margin-right: 15px;
+}
+
+/*Card Business Plan*/
+.plan{
+    display: flex;
+    justify-content: space-between;
+}
+.card-business-plan{
+    border: 1px solid lightgray;
+    min-height: 700px;
+    width: calc((100% / 3) - 20px);
+    margin-top: 40px;
+}
+
+.title-private{
+    text-align: center;
+    padding: 10px;
+}
+
+.info-business-plan{
+    padding: 20px 20px;
+}
+
+.title-line{
+    color: lightgray;
+}
+
+.title-info-business-plan > *{
+    margin-bottom: 10px;
+}
+
+.title-info-business-plan{
+    margin-bottom: 30px;
+}
+
+.info-title{
+    font-size: 30px;
+}
+
+.grey-subtitle{
+    color:grey
+}
+
+.property-business-plan > div{
+    margin-bottom: 10px;
+}
+
+.property-business-plan > div > p{
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*CTA*/
+.cta-business-plan{
+    color: white;
+    background-color: #0160FF;
+    padding: 10px 20px;
+    width:100%;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.line-business-plan{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.list > ul{
+    list-style: none;
+}
+
+.list > ul li:before{
+    content:'✓';
+    color: #0160FF;
+}
+
+.list > h4{
+    margin-bottom: 10px;
+}
+
+.list > ul> li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 
