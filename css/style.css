@@ -17,6 +17,7 @@ main{
     font-style: normal;
     font-variation-settings: "wdth" 100;
     text-decoration: none;
+    width: 100%;
 }
 
 /*{
@@ -354,4 +355,21 @@ header{
 .single-operation > p{
     font-size: 14px;
 }
+
+/*Quante persone utilizzano dropbox*/
+
+.user-container{
+    margin: 100px 0;
+}
+
+#title-user-dropbox{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+/*Loghi e partner*/
+
+
+
+
 /*Footer*/
