@@ -250,7 +250,7 @@ header{
 .line-business-plan{
     margin-top: 30px;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 30%;
 }
 
@@ -271,6 +271,50 @@ header{
     margin-bottom: 10px;
     font-size: 14px;
     font-weight: 300;
+}
+
+/*Immagine e Testo - sezione partner*/
+
+.img-text{
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    margin: 100px 0;
+}
+
+.img-main-sx{
+    position: absolute;
+    left:0;
+}
+
+.img-main-sx > img{
+    max-width:60%;
+}
+
+.text-main-dx{
+    width: 30%;
+    position: absolute;
+    top:30px;
+    right:50px;
+    margin-left: 20px;
+}
+
+.text-main-dx > h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.text-main-dx > p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.cta-partner{
+    border: 1px solid black;
+    width:max-content;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 
