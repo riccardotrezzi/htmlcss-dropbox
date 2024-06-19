@@ -416,7 +416,7 @@ header{
 .square > .central-square{
     height: 100%;
     background-color: #F5F5F5;
-    padding: 20px;
+    padding: 30px;
 }
 
 .central-square > img{
@@ -477,10 +477,13 @@ header{
     position: relative;
 }
 
+.small-square-dx{
+    position: relative;
+}
+
 .small-square > img{
     filter: invert(1);
     width: 100px;
-    text-align: center;
 }
 
 .small-square-dx > img{
@@ -488,6 +491,53 @@ header{
     width: 100px;
 }
 
+#designit{
+    position: absolute;
+    top: 90px; 
+    left: 50px;
+}
+
+#arizona-state-university{
+    position: absolute;
+    top: 65px; 
+    left: 55px;
+}
+
+#university-of-florida{
+    position: absolute;
+    top: 90px; 
+    left: 50px;
+}
+
+#topps{
+    position: absolute;
+    top: 80px; 
+    left: 50px;
+}
+
+#world-bicycle-relief{
+    position: absolute;
+    top: 85px; 
+    left: 50px;
+}
+
+#hearst-corp{
+    position: absolute;
+    top: 100px; 
+    left: 50px;
+}
+
+#lonely-planet{
+    position: absolute;
+    top: 75px; 
+    left: 50px;
+}
+
+#clear-channel{
+    position: absolute;
+    top: 70px; 
+    left: 50px;
+}
 /*Bottom Logo section*/
 
 .bottom-section-logo{
