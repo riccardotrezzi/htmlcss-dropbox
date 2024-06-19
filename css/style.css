@@ -279,7 +279,7 @@ header{
     width: 100%;
     min-height: 500px;
     position: relative;
-    margin: 100px 0;
+    margin: 70px 0;
 }
 
 .img-main-sx{
@@ -317,5 +317,41 @@ header{
     font-weight: 400;
 }
 
+/*Immagini operazioni con Dropbox Business*/
 
+#title-operation-dbbusiness{
+    font-size: 40px;
+}
+
+.operation-dbbusiness{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+
+#title-operation-dbbusiness{
+    margin-bottom: 50px;
+}
+
+.single-operation{
+    flex-direction: row;
+    width: calc(100% / 3);
+    min-height: 200px;
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+.single-operation > img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.single-operation > h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.single-operation > p{
+    font-size: 14px;
+}
 /*Footer*/
