@@ -51,6 +51,9 @@ li > a{
     width: 900px;
 }
 
+.container-logo{
+    width: 100%;
+}
 
 /*Header*/
 header{
@@ -181,6 +184,7 @@ header{
 .title-private{
     text-align: center;
     padding: 10px;
+    border-bottom: 1px solid lightgray;
 }
 
 .info-business-plan{
@@ -367,9 +371,140 @@ header{
     margin-bottom: 40px;
 }
 
+.user-container > a{
+    font-size:20px;
+}
+
 /*Loghi e partner*/
 
+.main-square{
+    display: flex;
+    margin: 60px 0 0 0;
+}
 
+.main-square > .square.composition{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-square > .square > .small-square{
+    width: 50%;
+    height: 50%;
+}
+
+.main-square > .square > .small-square-dx{
+    width: 50%;
+    height: 50%;
+}
+
+.main-square > .square{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.square > .central-square{
+    height: 100%;
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+.central-square > img{
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+.central-square > p{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.central-square > h5{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.line-logo{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 30%;
+}
+
+.small-square:nth-child(1){
+    background-color: #A2D39B;
+}
+.small-square:nth-child(2){
+    background-color: #61092B;
+}
+
+.small-square:nth-child(3){
+    background-color: #0093CE;
+}
+
+.small-square:nth-child(4){
+    background-color: #FF1B1C;
+}
+
+.small-square-dx:nth-child(1){
+    background-color: #D5001F;
+}
+
+.small-square-dx:nth-child(2){
+    background-color: #B3D0E7;
+}
+
+.small-square-dx:nth-child(3){
+    background-color: #0E2381;
+}
+
+.small-square-dx:nth-child(4){
+    background-color: #FFD72F;
+}
+
+.small-square{
+    position: relative;
+}
+
+.small-square > img{
+    filter: invert(1);
+    width: 100px;
+    text-align: center;
+}
+
+.small-square-dx > img{
+    filter: invert(1);
+    width: 100px;
+}
+
+/*Bottom Logo section*/
+
+.bottom-section-logo{
+    background-color: #B3D0E7;
+    min-height: 200px;
+    padding: 100px 0;
+    margin-bottom: 40px;
+}
+
+.bottom-logo{
+    display: flex;
+    justify-content: space-between;
+}
+#title-bottom-section-logo{
+    font-size: 40px;
+    color: #631436;
+}
+
+#cta-bottom-section-logo{
+    background-color: white;
+    color: black;
+    width:max-content;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*FAQ*/
 
 
 /*Footer*/
