@@ -159,12 +159,22 @@ header{
 .plan{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
+
 }
 .card-business-plan{
     border: 1px solid lightgray;
     min-height: 700px;
     width: calc((100% / 3) - 20px);
     margin-top: 40px;
+}
+
+.last-card-business-plan{
+    border: 1px solid lightgray;
+    min-height: 200px;
+    width: 100%;
+    margin: 40px 0;
+    position: relative;
 }
 
 .title-private{
@@ -206,6 +216,11 @@ header{
     font-weight: 400;
 }
 
+.last-property-business-plan > p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
 /*CTA*/
 .cta-business-plan{
     color: white;
@@ -213,6 +228,20 @@ header{
     padding: 10px 20px;
     width:100%;
     font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.last-cta-business-plan{
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    color: white;
+    background-color: #0160FF;
+    padding: 10px 20px;
+    width:max-content;
+    font-size: 14px;
     font-weight: 300;
     text-align: center;
     margin-bottom: 15px;
